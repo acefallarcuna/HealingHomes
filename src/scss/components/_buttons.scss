@@ -1,0 +1,33 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+.btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:.5rem;
+    padding: .9rem 1.5rem;
+    border-radius: var(--radius-sm);
+    font-weight:600;
+    @include transition;
+}
+
+.btn-primary{
+    background:$secondary;
+    color:white;
+}
+
+.btn-primary:hover{
+    transform:translateY(-2px);
+    box-shadow:$shadow-md;
+}
+
+.btn-outline{
+    border:2px solid $secondary;
+    color:$secondary;
+}
+
+.btn-outline:hover{
+    background:$secondary;
+    color:white;
+}

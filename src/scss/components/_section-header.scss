@@ -1,0 +1,32 @@
+.section-header {
+    max-width: 680px;
+    margin-bottom: var(--space-2xl);
+}
+
+.section-tag {
+    display: inline-block;
+
+    margin-bottom: var(--space-sm);
+
+    font-size: .95rem;
+    font-weight: 700;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+
+    color: var(--color-secondary);
+}
+
+.section-title {
+    margin-bottom: var(--space-md);
+
+    color: var(--color-heading);
+}
+
+.section-description {
+    max-width: 620px;
+
+    color: var(--color-text);
+
+    font-size: 1.1rem;
+    line-height: 1.8;
+}

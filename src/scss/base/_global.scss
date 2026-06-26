@@ -1,0 +1,49 @@
+@use "../abstracts/variables" as *;
+
+:root {
+    /* ===== Colors ===== */
+    --color-primary: #{$primary};
+    --color-secondary: #{$secondary};
+    --color-accent: #{$accent};
+
+    --color-bg: #{$background};
+    --color-heading: #{$heading};
+    --color-text: #{$text};
+    --color-border: #{$border};
+
+    /* ===== Typography ===== */
+    --font-heading: #{$font-heading};
+    --font-body: #{$font-body};
+
+    /* ===== Border Radius ===== */
+    --radius-sm: #{$radius-sm};
+    --radius-md: #{$radius-md};
+    --radius-lg: #{$radius-lg};
+
+    /* ===== Shadows ===== */
+    --shadow-sm: #{$shadow-sm};
+    --shadow-md: #{$shadow-md};
+    --shadow-lg: #{$shadow-lg};
+
+    /* ===== Layout ===== */
+    --container-width: 1200px;
+
+    /* ===== Spacing ===== */
+    --space-xs: #{$space-xs};
+    --space-sm: #{$space-sm};
+    --space-md: #{$space-md};
+    --space-lg: #{$space-lg};
+    --space-xl: #{$space-xl};
+    --space-2xl: #{$space-2xl};
+    --space-3xl: #{$space-3xl};
+}
+
+body {
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-body);
+}
+
+section {
+    padding: var(--space-3xl) 0;
+}
