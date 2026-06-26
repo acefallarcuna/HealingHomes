@@ -1,32 +1,26 @@
 .section-header {
-    max-width: 680px;
-    margin-bottom: var(--space-2xl);
+    max-width: 760px;
+
+    margin: 0 auto var(--space-3xl);
+
+    text-align: center;
 }
 
-.section-tag {
-    display: inline-block;
+.section-header--left {
+    margin-left: 0;
+    margin-right: 0;
 
-    margin-bottom: var(--space-sm);
-
-    font-size: .95rem;
-    font-weight: 700;
-    letter-spacing: .08em;
-    text-transform: uppercase;
-
-    color: var(--color-secondary);
+    text-align: left;
 }
 
 .section-title {
-    margin-bottom: var(--space-md);
-
-    color: var(--color-heading);
+    margin-top: var(--space-md);
 }
 
 .section-description {
-    max-width: 620px;
+    margin-top: var(--space-md);
 
     color: var(--color-text);
 
-    font-size: 1.1rem;
     line-height: 1.8;
 }

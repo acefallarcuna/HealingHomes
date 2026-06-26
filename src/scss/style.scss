@@ -10,7 +10,20 @@
 @use "layout/grid";
 @use "layout/header";
 
+@use "sections/hero";
+@use "sections/trust";
+@use "sections/services";
+@use "sections/about";
+@use "sections/process";
+@use "sections/cta";
+@use "sections/footer";
+
 @use "components/buttons";
 @use "components/section-header";
+@use "components/service-card";
+@use "components/info-card";
+@use "components/badge";
+@use "components/process-step";
+@use "components/floating-cta";
 
 @use "utilities/utilities";

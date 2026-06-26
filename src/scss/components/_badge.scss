@@ -1,0 +1,28 @@
+.badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: .45rem .9rem;
+
+    border-radius: 999px;
+
+    font-size: .85rem;
+    font-weight: 700;
+    letter-spacing: .02em;
+
+    transition:
+        background .3s ease,
+        color .3s ease;
+}
+
+.badge--primary {
+    background: rgba(29, 94, 169, .08);
+    color: var(--color-secondary);
+}
+
+.badge--light {
+    background: rgba(255,255,255,.12);
+    color: white;
+    backdrop-filter: blur(10px);
+}

@@ -1,0 +1,40 @@
+@media (max-width: 992px) {
+    .about-container {
+        grid-template-columns: 1fr;
+    }
+
+    .about-content {
+        text-align: center;
+    }
+}
+
+.about {
+    background: white;
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: var(--space-3xl);
+}
+
+.about-image img {
+    display: block;
+
+    width: 100%;
+    aspect-ratio: 4 / 5;
+
+    object-fit: cover;
+
+    border-radius: 32px;
+
+    box-shadow: var(--shadow-lg);
+}
+
+.about-values {
+    display: grid;
+    gap: var(--space-lg);
+
+    margin: var(--space-xl) 0;
+}

@@ -1,0 +1,27 @@
+.process-step {
+    transition: transform .3s ease;
+}
+
+.step-number {
+    display: grid;
+    place-items: center;
+
+    width: 72px;
+    height: 72px;
+
+    margin: 0 auto var(--space-lg);
+
+    border-radius: 50%;
+
+    background: var(--color-accent);
+
+    color: var(--color-primary);
+
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    box-shadow: var(--shadow-md);
+
+    position: relative;
+    z-index: 2;
+}

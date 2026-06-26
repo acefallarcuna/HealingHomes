@@ -1,0 +1,45 @@
+@media (max-width: 992px) {
+    .process-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .process-grid::before {
+        display: none;
+    }
+
+}
+
+@media (max-width: 640px) {
+    .process-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.process {
+    background: #f8fafc;
+}
+
+.process-grid {
+    position: relative;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: var(--space-xl);
+}
+
+.process-grid::before {
+    content: "";
+
+    position: absolute;
+
+    top: 36px;
+    left: 10%;
+
+    width: 80%;
+    height: 2px;
+
+    background: var(--color-border);
+
+    z-index: 1;
+}

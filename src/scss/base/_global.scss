@@ -19,6 +19,7 @@
     --radius-sm: #{$radius-sm};
     --radius-md: #{$radius-md};
     --radius-lg: #{$radius-lg};
+    --radius-xl: #{$radius-xl};
 
     /* ===== Shadows ===== */
     --shadow-sm: #{$shadow-sm};
@@ -45,5 +46,5 @@ body {
 }
 
 section {
-    padding: var(--space-3xl) 0;
+    padding-block: clamp(5rem, 8vw, 8rem);
 }
